@@ -1,0 +1,623 @@
+
+#background { 
+    background-image: url(./pics/kitchens1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 55%;
+
+    top: 13%;
+    margin-top: 6%;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    display: block;
+    opacity: 0.6;
+}
+
+.nav-bar { 
+    background-color: rgb(234, 235, 235);
+    position: fixed;
+    z-index: 2;
+    width: 99%;
+    height: 10%;
+    top: 0%;
+
+
+    img { 
+        position: absolute;
+        display: inline-block;
+        width: 10%;
+        height: 100%;
+        left: 5%;
+    }
+
+
+
+    nav {
+        position: absolute;
+        display: inline-flex;
+        top: 40%;
+        left: 50%;
+        gap: 20px;
+    }
+}
+
+
+/* THIS IS THE ONE UR WORKING ON RIGHT NOW */
+
+
+.start { 
+    position: absolute;
+    bottom: 30%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+li { 
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+h1 { 
+    font-size: 2.5rem;
+}
+
+h2 { 
+    font-size: 2rem;
+}
+
+h3 { 
+    font-size: 1.5rem;
+}
+
+p { font-size: 1.1rem;
+    font-weight: 350;
+    line-height: 1.6rem;
+    
+}
+    
+
+
+.services { 
+    position: relative;
+    width: 100%;
+    background-color: ;
+    text-align: center;
+    top: 2rem;
+
+    img { 
+        width: 25rem;
+        height: 30rem;
+        opacity: 0.5;
+        border-color: white;
+        border-style: solid;
+    }
+
+    img:hover { 
+    opacity: 0.9;
+    transition: 0.8s;
+    border-color: black;
+    border-style: solid;
+    transform: scale(1.03);
+
+}
+
+    .pics-table { 
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 3rem;
+        column-gap: 3rem;
+        justify-content:flex-start;
+        margin-left: 7rem;
+        
+        div { 
+            position: relative;
+            width: 25rem;
+            height: 30rem;
+        }
+
+
+            h2 { 
+                position: absolute;
+                text-align: center;
+                font-size: 1.5rem;
+                margin: 50% 30%;   
+                font-weight: bolder;             
+
+            }
+        
+    }
+}
+
+
+#backgroundtwo { 
+    background-image: url(./pics/kitchens1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 55%;
+
+    top: 13%;
+    margin-top: 6%;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    display: block;
+    opacity: 0.8;
+}
+
+hr { 
+    margin-top: 5%;
+    width: 85%;
+    height: 0.1em;
+    border: none;
+    background-color: black;
+}
+
+
+
+.whoweare { position: relative;
+    width: 100%;
+    background-color: ;
+
+    .top-blank { 
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        top: 0%;
+        background-color: white ;
+        opacity: 0.8;
+    }
+
+    .clear { 
+        text-align: center;
+        position: absolute;
+        width: 80%;
+        height: 35%;
+        top: 17%;
+        margin-left: 10%;
+    }
+
+    .bottom-blank { 
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        bottom: 0%;
+        background-color: white;
+        opacity: 0.8;
+    }
+}
+
+.end { 
+    position: relative;
+    display: block;
+    height: 20rem;
+    margin-top: 5%;
+    padding-left: 15%;
+    background-color: rgb(234, 235, 235);
+
+    img { width: 15rem;
+        height: 15rem;
+        top: 15%;
+        position: absolute;
+        display: inline-block;
+
+    }
+
+    .grid-table { 
+        position: absolute;
+        display: grid;
+        gap: 5px;
+        background-color: ;
+        width: 600px;
+        height: 200px;
+
+        margin-top: 5%;
+        margin-left: 20%;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        text-align: center;
+
+
+
+
+    }
+
+    footer { 
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 22%;  
+    }
+}
+
+
+
+
+
+/* ABOUT US SPECIFIC CSS */
+
+#OUR-COMPANY-BACKGROUND { 
+    background-image: url(./pics/paint.jpg);
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-position: center 55%;
+
+    background-size: 100%;
+    top: 15%;
+    width: 99%;
+    display: block;
+    height: 250px;
+    position: absolute;
+
+}
+
+.about  {
+    height: fit-content;
+    min-height: 45%;
+    width: 100%;
+    top: 400px;
+    position: relative;
+
+
+    .about-us {
+        height: fit-content;
+        width: 35%;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 100px;
+        display: inline-block;
+    }
+
+    .our-value {
+        height: fit-content;
+        width: 35%;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 100px;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+
+        .title {
+            margin-bottom: 35px;
+        }
+
+
+
+
+        details {
+         border: none;
+         position: relative;
+}
+
+        summary {
+        font-size: 0.8rem;
+        font-weight: bold;
+         cursor: pointer;
+        border-bottom: 1px solid black;
+        list-style: circle ;
+}
+        
+
+    }
+
+}
+
+.goal { 
+    margin-bottom: 30%;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    top: 400px;
+    margin-top: 5%;
+
+    .our-mission { 
+        height: fit-content;
+        width: 35%;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 100px;
+        display: inline-block;
+        position: absolute;
+    }
+
+    .team-pic { 
+        width: 30rem;
+        margin-top: 2%;
+        margin-left: 7%;
+        margin-right: 3%;
+    }
+
+    .founders {
+        width: 480px;
+        height: 480px;
+
+        margin-left: 7%;
+        margin-top: 5%;
+        height: fit-content;
+
+        img {
+        width: 30rem;
+        right: 15%;
+        margin-top: 5%; 
+        position: absolute;
+        display: inline-block;
+        }
+    }
+
+    .our-goal {
+            width: 80%;
+            text-align: center;
+            margin: 5% auto ;
+        }
+}
+
+
+
+
+/* HOW WE WORK CSS */
+
+#HOW-WE-WORK-BACKGROUND {
+    background-image: url(./pics/handyman1.jpg);
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-position: center 55%;
+
+    background-size: 100%;
+    top: 15%;
+    width: 99%;
+    display: block;
+    height: 250px;
+    position: absolute;
+}
+
+.steps { 
+    
+
+    .title {
+    text-align: center;
+    position: relative;
+    margin-top: 27%;
+
+    }
+
+    .steps-grid{
+
+        position: relative;
+        width: 70%;
+        margin: 5% auto;
+        display: grid;
+        gap: 5%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+
+        margin-bottom: 10%;
+
+        
+
+        .discription {
+            display: flex;
+            justify-content: center;
+            align-content: flex-start ;
+            flex-direction: column;
+            
+        }
+
+
+        img { 
+            width: 25rem;
+            height: 25rem;
+            border-color: black;
+            border-style: solid;
+        }
+    }
+}
+
+
+
+/* OUR SERVICES CSS */
+
+#OUR-SERVICES-BACKGROUND{
+    background-image: url(./pics/our\ services.jpg);
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-position: center 95%;
+
+    background-size: 100%;
+    top: 15%;
+    width: 99%;
+    display: block;
+    height: 250px;
+    position: absolute;
+
+}
+
+
+.OUR-SERVICES { 
+    background-color: rgb(234, 235, 235);
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100% ;
+    margin: 27% auto 0;
+    
+    .title { 
+        width: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        margin-left: 5%;
+        text-align: center;
+        
+    }
+
+    img {
+        position: relative;
+        width: 30rem;
+        height: 30rem;
+        margin-left: 5%;
+    }
+}
+
+.flex-services { 
+    #full-renovation{ scroll-margin-top: 35vh;}
+    #kitchens{scroll-margin-top: 35vh;}
+    #bathrooms{ scroll-margin-top: 35vh;}
+    #painting {scroll-margin-top: 35vh; }
+    #wood-working{ scroll-margin-top: 35vh;}
+    #handyman{scroll-margin-top: 35vh; }
+    #demolation{scroll-margin-top: 35vh; }
+
+    
+
+    img{ 
+        width: 20rem;
+        border-color: black;
+        border-style: solid;
+    }
+
+    .discriotion{ 
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        button {
+            background-color: #3B3028;
+            color: white;
+
+            font-size: 16px;
+            font-weight: bold;
+
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5%;
+
+            cursor: pointer;
+        }
+        
+        
+    }
+    .example {
+        margin: 5% auto 0;
+        width: 100%;
+        display: inline-flex;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        padding: 2% 0;
+
+    }
+    .gray { 
+        background-color: rgb(234, 235, 235);
+    }
+
+    
+}
+
+
+
+/* COMPLETED PROJECTS */
+
+
+#COMPLETED-PROJECTS-BACKGROUND{
+    background-image: url(./pics/drywall\ design.jpg);
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    background-position: center 95%;
+
+    background-size: 100%;
+    top: 15%;
+    width: 99%;
+    display: block;
+    height: 250px;
+    position: absolute;
+
+}
+
+.completed-projects { 
+    background-color: rgb(234, 235, 235);
+    position: relative;
+    display: inline-block;
+    margin: 27% auto 0;
+    text-align: center;
+
+    .title { 
+        width: 80%;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+}
+ 
+
+
+
+/* this is the one ur working on NOW */
+
+
+/* .container{ 
+    background-color: aqua;
+    width: 80%;
+    height: 35%;
+    text-align: center;
+    position: relative;
+
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin: 0 auto ;
+}
+
+.projects-gallery { 
+
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    height: 30%;
+    gap: 3%;
+    
+    width: 100%;
+    background-color: bisque;
+ 
+
+
+    img{ width: 15rem;
+    height: 15rem;}
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
